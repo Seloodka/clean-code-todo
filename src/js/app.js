@@ -11,7 +11,7 @@ const createElementWithClass = (elementTag, className) => {
 };
 
 const createNewTaskElement = (taskTitle) => {
-  const taskElement = document.createElement('li');
+  const taskElement = createElementWithClass('li', 'task');
   const taskCheckBox = document.createElement('input');
   const taskTitleLabel = createElementWithClass('label', 'task__title');
   const taskEditTitleInput = document.createElement('input');

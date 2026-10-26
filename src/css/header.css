@@ -1,0 +1,18 @@
+.page-header {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
+
+  img {
+    width: 100%;
+  }
+
+  .page-header__link {
+    font-family: fantasy, cursive;
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+}
