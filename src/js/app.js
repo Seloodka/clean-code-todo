@@ -14,7 +14,7 @@ const createNewTaskElement = (taskTitle) => {
   const taskElement = createElementWithClass('li', 'task');
   const taskCheckBox = document.createElement('input');
   const taskTitleLabel = createElementWithClass('label', 'task__title');
-  const taskEditTitleInput = document.createElement('input');
+  const taskEditTitleInput = createElementWithClass('input', 'task__input');
   const taskEditButton = createElementWithClass('button', 'task__edit-button');
   const taskDeleteButton = createElementWithClass('button', 'task__delete-button');
   const taskDeleteButtonImage = document.createElement('img');
