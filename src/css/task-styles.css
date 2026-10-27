@@ -26,11 +26,8 @@
   }
 
   .task__input {
-    width: 226px;
-  }
-
-  .task__input {
     display: none;
+    width: 226px;
   }
 }
 
