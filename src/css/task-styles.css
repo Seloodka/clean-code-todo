@@ -1,0 +1,58 @@
+.new-task__input {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.new-task__input-wrapper {
+  display: flex;
+}
+
+.new-task__title {
+  display: block;
+  margin: 0 0 20px;
+}
+
+.task {
+  input[type='checkbox'] {
+    margin: 0 10px;
+  }
+
+  .task__title {
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    width: 226px;
+  }
+
+  .task__input {
+    display: none;
+    width: 226px;
+  }
+}
+
+button.task__delete-button img {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+
+  &:hover {
+    transform: rotateZ(0);
+  }
+}
+
+.task--edit-mode {
+  .task__input {
+    display: inline-block;
+    width: 224px;
+  }
+
+  .task__title {
+    display: none;
+  }
+}
+
+#completed-tasks__list .task__title {
+  text-decoration: line-through;
+  color: #888;
+}

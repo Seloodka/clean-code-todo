@@ -1,0 +1,6 @@
+# Ignore directories: 
+.github/
+
+# Ignore files:
+package-lock.json
+
